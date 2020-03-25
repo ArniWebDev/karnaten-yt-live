@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background-color: #ecf0f1;
+}
+
+.wrapper {
+  height: 100vh;
+  background-color: #d4ac0d;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.content-container {
+  height: 70%;
+}
+
+.main {
+  width: 70%;
+  height: 100%;
+  background-color: #d4efdf;
+  float: left;
+}
+
+.main p,
+.aside p {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.aside {
+  width: 30%;
+  height: 100%;
+  background-color: #cd6155;
+  float: left;
+}
+
+.header,
+.footer {
+  height: 15%;
+  text-align: center;
+  padding-top: 5vh;
+}
+
+.clear-fix {
+  clear: both;
+}
