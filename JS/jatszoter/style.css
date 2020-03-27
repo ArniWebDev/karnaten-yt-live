@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: paleturquoise;
+}
+
+.wrapper {
+  width: 80%;
+  background-color: lightgrey;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.p1 {
+  width: 60%;
+  background-color: lightpink;
+}
+
+.p2 {
+  width: 40%;
+  background-color: lime;
+}
