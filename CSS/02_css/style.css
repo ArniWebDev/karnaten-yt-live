@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.wrapper {
+  display: flex;
+  height: 500px;
+  background-color: grey;
+}
+
+.wrapper > div {
+  width: 100px;
+  height: 100px;
+  background-color: goldenrod;
+  margin: 10px;
+  font-weight: bold;
+  font-size: 2em;
+  color: white;
+  /* line-height: 100px;
+  text-align: center; */
+}
+
+.wrapper div:nth-child(11) {
+  background-color: hotpink;
+  height: 400px;
+  width: 250px;
+  display: flex;
+  line-height: normal;
+  justify-content: space-around;
+  align-items: center;
+}
