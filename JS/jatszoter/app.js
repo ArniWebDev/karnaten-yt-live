@@ -1,13 +1,33 @@
-let wrapper = document.querySelector(".wrapper");
-console.log(wrapper);
+// Fuggvenyek
 
-let paragrafusSzoveg =
-  "By Arni: Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse autem quibusdam delectus laboriosam odit veritatis recusandae aspernatur reprehenderit rerum. Ipsum commodi asperiores impedit voluptate perspiciatis omnis accusantium quis quas accusamus.";
+// ES5 fuggveny syntax name, param, statement
 
-let p = document.createElement("p");
+function elsoFunction(param1, param2) {
+  console.log(param1 + " " + param2);
+  return param1.length;
+}
 
-p.innerText = paragrafusSzoveg;
+const masodikFuggveny = function() {
+  console.log("function(expression)");
+};
 
-console.log(p);
+const arrowFuggveny = () => {
+  console.log("ez egy arrow function");
+};
 
-wrapper.appendChild(p);
+masodikFuggveny();
+arrowFuggveny();
+
+// void
+
+// return value
+
+// function declaration vs. function expression
+
+// ES6 arrow function(expression) syntax
+
+// Ciklusok - for ciklus - for (i = 0; i < 10; i++) {}
+
+for (let i = 1; i <= 10; i++) {
+  console.log(i);
+}

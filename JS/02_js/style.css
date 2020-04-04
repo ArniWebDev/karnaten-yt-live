@@ -8,6 +8,13 @@ body {
 
 .wrapper {
   width: 80%;
-  background-color: lightgrey;
   margin: 0 auto;
+}
+
+p {
+  margin: 5px;
+  background-color: darkolivegreen;
+  font-size: 2em;
+  color: white;
+  padding: 5px;
 }
