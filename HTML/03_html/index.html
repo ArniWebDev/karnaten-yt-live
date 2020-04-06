@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Form and choosing between options!</h1>
+    <h2>Forms and input types</h2>
+    <p>form basics and the form tag</p>
+    <h3>text type and submit</h3>
+    <form method="GET">
+      <label for="nev">Nev:</label>
+      <input type="text" id="nev" name="nev" />
+      <label for="user">Felhasznalo nev:</label>
+      <input type="text" id="user" name="user" />
+      <input type="submit" value="Submit" />
+    </form>
+    <h3>type password and email</h3>
+    <form>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" />
+      <label for="jelszo">Jelszo:</label>
+      <input type="password" id="jelszo" name="jelszo" />
+      <input type="submit" value="Belep" />
+    </form>
+    <h3>type date and color</h3>
+    <form>
+      <label for="szulinap">Szulinapom:</label>
+      <input type="date" id="szulinap" name="szulinap" />
+      <label for="kedvencSzinem">Select your favorite color:</label>
+      <input type="color" id="kedvencSzinem" name="kedvencSzinem" />
+      <input type="submit" value="Kesz!" />
+    </form>
+    <h2>Select</h2>
+
+    <label for="kedvencSzin">Kedvenc szined?</label>
+    <select id="kedvencSzin" name="kedvencSzin">
+      <option value="keke">keke</option>
+      <option value="piros">piros</option>
+      <option value="zold">zold</option>
+      <option value="sarga">sarga</option>
+    </select>
+    <h2>Options</h2>
+    <h3>Radio button</h3>
+    <fieldset>
+      <legend>Neme?</legend>
+      <input type="radio" name="nem" id="No" value="no" />
+      <label for="No">No</label>
+      <input type="radio" name="nem" id="Ferfi" value="ferfi" />
+      <label for="Ferfi">Ferfi</label>
+      <input type="radio" name="nem" id="Egyeb" value="egyeb" />
+      <label for="Egyeb">Egyeb</label>
+    </fieldset>
+    <h3>Check box</h3>
+    <fieldset>
+      <legend>Neme?</legend>
+      <input type="checkbox" name="nem" id="No" value="no" />
+      <label for="No">No</label>
+      <input type="checkbox" name="nem" id="Ferfi" value="ferfi" />
+      <label for="Ferfi">Ferfi</label>
+      <input type="checkbox" name="nem" id="Egyeb" value="egyeb" />
+      <label for="Egyeb">Egyeb</label>
+    </fieldset>
+    <br />
+    <form action="https://jsonplaceholder.typicode.com/posts" method="GET">
+      <label for="userId">Nev:</label>
+      <input type="text" id="userId" name="userId" />
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
