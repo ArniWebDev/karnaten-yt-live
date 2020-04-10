@@ -1,0 +1,14 @@
+.wrapper div {
+  width: 100px;
+  height: 100px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+body {
+  height: 100vh;
+}
