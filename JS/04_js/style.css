@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+}
+
+.wrapper {
+  background-color: #34495e;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  background-color: #27ae60;
+  font-size: 2.5rem;
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  border: none;
+  border-radius: 0.5rem;
+}
+
+.hide {
+  display: none;
+}
