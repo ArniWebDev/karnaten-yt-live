@@ -27,11 +27,19 @@ button {
 }
 
 .general-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 600px;
   height: 80px;
   background-color: #bdc3c7;
   margin: 40px auto 0 auto;
   border-radius: 1rem;
+  font-size: 1.25rem;
+}
+
+.general-container button:hover {
+  transform: scale(1.2);
 }
 
 .input-container {
@@ -50,12 +58,6 @@ button {
   margin-right: 20px;
 }
 
-.nav {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .easy {
   background-color: #2ecc71;
 }
@@ -70,4 +72,19 @@ button {
 
 .check-btn {
   background-color: #3498db;
+  pointer-events: none;
+}
+
+.start-btn {
+  background-color: #3498db;
+  pointer-events: none;
+  width: 100px;
+}
+
+.activate-click {
+  pointer-events: all;
+}
+
+.hide {
+  display: none;
 }
